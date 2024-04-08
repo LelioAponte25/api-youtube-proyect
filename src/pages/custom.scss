@@ -1,0 +1,52 @@
+
+// Importar los estilos y variables de Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+// Definir variables personalizadas
+$primary: #6710f2; 
+$bg-body-tertiary: #6710f2;
+
+// Estilo del botón
+.btn-primary {
+  background-color: $primary;
+  color: rgb(255, 255, 255); 
+  border-color: $primary;
+}
+
+.btn-primary:hover {
+  background-color: white ;
+  color: $indigo-800;
+  border-color: $indigo-800;
+}
+
+// Estilo de la barra de navegación
+.navbar {
+  background-color: $indigo-700;
+}
+
+// Otros estilos personalizados
+.title {
+  color: white;
+}
+
+.fondo{
+  background-image: url(https://th.bing.com/th/id/OIG1.lazXAkijssxBpiomK9Fc?w=1024&h=1024&rs=1&pid=ImgDetMain);
+  min-height: 100vh;
+}
+
+.fondoForm {
+  width: 80%;
+  height:60vh;
+  border-top: 2px solid #ffffff75;
+  border-left: 2px solid #ffffff75;
+  box-shadow: 5px 5px 12px #00000035;
+  background: #ffffff25;
+  overflow: hidden;
+  backdrop-filter: blur(4px);
+}
+
+.sign{
+  color: $indigo-600;
+}
