@@ -34,6 +34,8 @@ $bg-body-tertiary: #6710f2;
 .fondo{
   background-image: url(https://th.bing.com/th/id/OIG1.lazXAkijssxBpiomK9Fc?w=1024&h=1024&rs=1&pid=ImgDetMain);
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover
 }
 
 .fondoForm {
